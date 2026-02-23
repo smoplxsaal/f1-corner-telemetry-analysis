@@ -1,4 +1,4 @@
-<img width="989" height="590" alt="image" src="https://github.com/user-attachments/assets/c3ef1c58-d932-441d-bf6f-6019c9e83c92" />Problem
+
 This project investigates how two drivers execute Turn 10 at Bahrain and quantifies where time delta is created within the corner.
 Rather than comparing total lap time, the corner is decomposed into braking, rotation (minimum speed), and exit phases.
 
@@ -32,10 +32,17 @@ Traction on exit
 Tyre temperature evolution
 Quantifying time gain within a single corner enables engineers to determine whether performance differences stem from braking execution, mid-corner balance, or exit efficiency.
 
-## Visual Analysis
+Visual Analysis
+Speed Profile Comparison
 
-### Speed Profile Comparison
-![Speed Comparison](images/combined_speed.png)
+<img width="989" height="590" alt="59068b63-cbf0-4e64-afa9-a40e91a7d772" src="https://github.com/user-attachments/assets/08887342-8650-4e0a-b96c-8e0a58def0ee" />
 
-### Delta Time Evolution
-![Delta Curve](images/delta_curve.png)
+This illustrates braking approach, minimum speed, and exit acceleration differences between the two drivers.
+
+Delta Time Evolution
+
+<img width="989" height="590" alt="5e147eb3-287d-4cf5-b450-981185eddf2a" src="https://github.com/user-attachments/assets/860a7e67-29b9-4a89-a438-9a0edb5ed527" />
+
+
+The delta curve quantifies where time is gained across the corner.
+Turn 10 contributed ~0.161s (~18%) of total lap delta.
